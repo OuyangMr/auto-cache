@@ -1,0 +1,36 @@
+{
+  "name": "auto-cache",
+  "version": "1.0.0",
+  "description": "a cache tools",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "lib/stores/",
+    "index.js"
+  ],
+  "dependencies": {
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "should": "^11.1.2"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MatriQ/auto-cache.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cache",
+    "redis",
+    "memory"
+  ],
+  "author": "MatriQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatriQ/auto-cache/issues"
+  },
+  "homepage": "https://github.com/MatriQ/auto-cache#readme"
+}
