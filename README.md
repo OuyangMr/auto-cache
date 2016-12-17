@@ -1,7 +1,7 @@
 Auto-Cache 
 ==========
 
- Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
+ Fast, Quick, Lite Cache framework for [node](http://nodejs.org).
 
 
   [![NPM Version][npm-image]][npm-url]
