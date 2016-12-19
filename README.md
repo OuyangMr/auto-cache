@@ -1,4 +1,4 @@
-Auto-Cache 
+Auto-Cache
 ==========
 
  Fast, Quick, Lite Cache framework for [node](http://nodejs.org).
@@ -25,10 +25,10 @@ $ npm test
 ## Usage
 
 ```js
-var AutoCacha = require('auto-cacha');
+var AutoCache = require('auto-cache');
 
-var autoCacha = new AutoCacha();
-autoCacha.get('hash','key', function (cb) {
+var autoCache = new AutoCache();
+autoCache.get('hash','key', function (cb) {
   // TODO
 },5*60*60);
 ```
