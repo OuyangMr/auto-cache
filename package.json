@@ -1,6 +1,6 @@
 {
     "name": "auto-cache",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "a cache framework,support local memory,redis",
     "main": "index.js",
     "files": [
