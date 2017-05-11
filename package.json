@@ -1,6 +1,6 @@
 {
-    "name": "auto-cache",
-    "version": "1.0.3",
+    "name": "auto-cache2",
+    "version": "1.0.5",
     "description": "a cache framework,support local memory,redis",
     "main": "index.js",
     "files": [
@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/MatriQ/auto-cache.git"
+        "url": "git+ssh://git@github.com/OuyangMr/auto-cache.git"
     },
     "keywords": [
         "nodejs",
@@ -27,10 +27,10 @@
         "redis",
         "memory"
     ],
-    "author": "MatriQ",
+    "author": "OuyangMr",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/MatriQ/auto-cache/issues"
+        "url": "https://github.com/OuyangMr/auto-cache/issues"
     },
-    "homepage": "https://github.com/MatriQ/auto-cache#readme"
+    "homepage": "https://github.com/OuyangMr/auto-cache#readme"
 }
