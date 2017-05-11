@@ -25,7 +25,7 @@ $ npm test
 ## Usage
 
 ```js
-var AutoCache = require('auto-cache');
+var AutoCache = require('auto-cache2');
 
 var autoCache = new AutoCache();
 autoCache.get('hash','key', function (cb) {
