@@ -1,36 +1,38 @@
 {
-    "name": "auto-cache2",
-    "version": "1.0.5",
-    "description": "a cache framework,support local memory,redis",
-    "main": "index.js",
-    "files": [
-        "lib/",
-        "lib/stores/",
-        "index.js"
-    ],
-    "dependencies": {
-        "redis": "^2.6.3"
-    },
-    "devDependencies": {
-        "should": "^11.1.2"
-    },
-    "scripts": {
-        "test": "mocha delay"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/OuyangMr/auto-cache.git"
-    },
-    "keywords": [
-        "nodejs",
-        "cache",
-        "redis",
-        "memory"
-    ],
-    "author": "OuyangMr",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/OuyangMr/auto-cache/issues"
-    },
-    "homepage": "https://github.com/OuyangMr/auto-cache#readme"
+  "name": "auto-cache2",
+  "version": "1.0.6",
+  "description": "a cache framework,support local memory,redis",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "lib/stores/",
+    "index.js"
+  ],
+  "dependencies": {
+    "install": "^0.12.1",
+    "node-redis-pubsub": "^3.0.0",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "should": "^11.1.2"
+  },
+  "scripts": {
+    "test": "mocha delay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OuyangMr/auto-cache.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cache",
+    "redis",
+    "memory"
+  ],
+  "author": "OuyangMr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OuyangMr/auto-cache/issues"
+  },
+  "homepage": "https://github.com/OuyangMr/auto-cache#readme"
 }
