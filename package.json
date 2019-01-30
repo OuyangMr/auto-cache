@@ -11,7 +11,7 @@
   "dependencies": {
     "install": "^0.12.1",
     "node-redis-pubsub": "^3.0.0",
-    "redis": "^2.6.3"
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "should": "^11.1.2"
