@@ -10,7 +10,7 @@ const store     = new RedisStore({
         auth_pass: 'test1231'
     },
     scope: 'demo',
-    db   : 10
+    db   : 6
 });
 const autoCache = new AutoCache({
     store: store,
@@ -32,5 +32,38 @@ const autoCache = new AutoCache({
         autoCache.pub('city', 1002, {city: 'ttttsss'});
         autoCache.pub('city1001', {city: 'ttttsss222'});
     }, 100);
+
+    ///////////// 并发加锁测试 /////////////////
+    // let update = async () => {
+    //
+    //     let lock = null;
+    //     try {
+    //         lock = await autoCache.redlock.lock('lock:redis-pot-test', 1000) // 这种写法取不到锁时会直接抛出错误
+    //     } catch (error) {
+    //         try {
+    //             lock = await autoCache.redlock.lock('lock:redis-pot-test', 1000)
+    //         } catch (e) {
+    //             lock = null;
+    //             console.error(e);
+    //         }
+    //     }
+    //
+    //     // 处理逻辑
+    //     let roomNum = await autoCache.get('redis-pot-test') || 0;
+    //     if (roomNum > 0) {
+    //         roomNum--;
+    //         await autoCache.set('redis-pot-test', null, roomNum, 10 * 60);
+    //         console.log(roomNum);
+    //     }
+    //
+    //     if (lock) lock.unlock();
+    // };
+    //
+    // for (let i = 0; i < 5; i++) {
+    //     update();
+    //     update();
+    //     update();
+    //     update();
+    // }
 
 })();
